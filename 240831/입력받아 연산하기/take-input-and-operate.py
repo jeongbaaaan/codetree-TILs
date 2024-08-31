@@ -1,5 +1,10 @@
-inp = input()
-arr = inp.split()
-a = int(arr[0])
-b = int(arr[1])
-print(f"{a+87}\n{b%10}")
+# 변수 선언, 입력
+a = int(input())
+b = int(input())
+
+a += 87
+b %= 10
+
+# 출력
+print(a)
+print(b)
