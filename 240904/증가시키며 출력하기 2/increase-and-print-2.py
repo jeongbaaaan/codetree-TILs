@@ -1,5 +1,4 @@
-i = 5
-while i <= 10:
-    print(i)
+i = 10
+while i <= 26:
+    print(i, end=" ")
     i += 1
-print("Done")
