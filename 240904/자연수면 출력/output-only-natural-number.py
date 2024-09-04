@@ -1,8 +1,6 @@
-# 입력 받기
 a, b = map(int, input().split())
-
-# 조건에 따른 출력
-if a > 0:
-    print(str(a) * b)
+if a >= 0:
+    for i in range(b):
+        print(a, end="")
 else:
-    print(0)
+    print('0')
