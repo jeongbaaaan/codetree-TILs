@@ -6,7 +6,7 @@ for i in range(1, n):
     if n % i == 0:
         sum_val += i
 
-if sum_val == n:
+if sum_n == n:
     print("P")
 else:
     print("N")
