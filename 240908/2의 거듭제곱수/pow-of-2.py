@@ -1,7 +1,7 @@
 n = int(input())
 prod = 1
 x = 0
-while true:
+while True:
     if n == prod:
         break
     prod *= 2
