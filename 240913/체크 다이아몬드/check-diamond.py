@@ -13,5 +13,3 @@ def print_check_diamond(n):
         print(''.join(line))
 
 # n = 3일 때 다이아몬드 출력
-n = 3
-print_check_diamond(n)
