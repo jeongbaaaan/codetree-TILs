@@ -1,11 +1,11 @@
-n = int(input())  # 사용자로부터 정수 n 입력
+n = int(input())
 
-# 첫 번째 줄은 n개의 별 출력
-print("* " * n)
-
-# 두 번째 줄부터 n-1번째 줄까지
-for i in range(1, n):
-    print("* " * i + "*" + " " * (2 * (n - i - 1)) + "*")
-
-# 마지막 빈 줄 추가
-print()
+for i in range(n):
+    if i % 2 == 0:
+        # 짝수 줄: 별을 n개 출력
+        print('* ' * n)
+    else:
+        # 홀수 줄: 별과 공백 처리
+        stars = '* ' * (i // 2 + 1)
+        spaces = ' ' * (2 * (n - (i // 2 + 1) - 1))
+        print(stars + spaces + '* ' * (i // 2))
